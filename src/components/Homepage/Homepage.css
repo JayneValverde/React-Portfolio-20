@@ -11,7 +11,7 @@
 
 .hero-section {
     width: 100%;
-    padding: 4rem 0 1rem 0;
+    padding: 12rem 0 1rem 0;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -22,24 +22,40 @@
 .hero-section h1 {
     padding-bottom: 2rem;
     color: var(--color-primary);
+    
 }
 
 .hero-section img {
     width: 100px;
 }
 
-.brand-statement {
+.Photo {
+    margin: auto;
+    padding: 0rem;
+    display: flex;
+    justify-content: center;
+}
+
+
+.port-statement {
     max-width: var(--max-width);
-    padding: 1rem;
-    text-align: center;
+    margin: auto;
+    padding: 1em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-family: 'Josefin Sans', sans-serif;
+    
 }
 
-.brand-statement h2 {
-    padding: 2rem 0 ;
-    font-size: 2rem;
+.port-statement h2 {
+    padding: 0 ;
+    font-size: 1.5rem; 
+    
 }
 
-.brand-statement p {
+.port-statement p {
     padding: 0 0 1rem 0;
 }
 

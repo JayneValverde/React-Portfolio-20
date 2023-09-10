@@ -3,16 +3,18 @@
 :root {
     --max-width: 1350px;
     --color-tertiary: rgb(255, 191, 0);
-    --color-secondary: #3b3b3b;
+    --color-secondary: #d3cfcb;
+    --color-secondary-dark: #cfcdcb;
     --color-black: #282828;
     --color-white: rgb(226, 226, 226);
     --color-black-darker: rgb(0, 0, 0);
-    --color-primary: #7bda55;
+    --color-primary: #000;
 }
 
 * {
     margin: 0;
     padding: 0;
+    max-width: 100%;
     box-sizing: border-box;
 
 }
